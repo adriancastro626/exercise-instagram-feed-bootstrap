@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1dcd9ef8a5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+</head>
+
+<body>
+    <div class="shadow-none p-3 mb-5 bg-light rounded" class="border-bottom">
+        <nav class="navbar navbar-light bg-light" class="sticky-top">
+            <img src="https://www.swisslens.ch/wp-content/uploads/2020/08/Instagram-Logo-text-768x225.png" width="130px"
+                height="35px">
+            <div>
+                <form class="form-inline">
+                    <button type="button" class="btn btn-success">Create a New Post</button>
+
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle bg-light border-0" type="button"
+                            id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-cog text-secondary"></i>
+                        </button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                            <div class="dropdown-divider"></div>
+                            <button class="dropdown-item" type="button">Log Out</button>
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </nav>
+    </div>
+    <div class="row m-0 p-0">
+        <div class="col-12 p-0 m-0">
+            <div class="d-flex justify-content-center gridstacked">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true"><i
+                                class="fas fa-th my-auto d-block"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                            aria-controls="pills-profile" aria-selected="false"><i
+                                class="fas fa-square my-auto d-block"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="d-flex">
+                    <div class="row">
+                        <div class="col" >
+                            <div class="post">
+                                <div>
+                                    <img src="https://assets.entrepreneur.com/content/3x2/2000/20181024141928-codigo.jpeg?width=700&crop=2:1"
+                                        width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://economipedia.com/wp-content/uploads/Bitcoin-cc.jpg" width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://economipedia.com/wp-content/uploads/Bitcoin-cc.jpg" width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://thumbs.dreamstime.com/b/pantalla-del-fondo-de-la-tecnolog%C3%ADa-del-c%C3%B3digo-fuente-y-del-extracto-95206313.jpg"
+                                        width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://economipedia.com/wp-content/uploads/Bitcoin-cc.jpg" width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://elcomercio.pe/resizer/FkTQ4lEOCTGjrA5uno6KJ1LgsMg=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OJAYHV4US5BLPMLSB2EFZEASKM.jpg"
+                                        width=100% />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://www.computerworld.es/archivos/201909/code.jpg" width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://economipedia.com/wp-content/uploads/Bitcoin-cc.jpg" width=100%>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="post">
+                                <div>
+                                    <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/09/lenguajes-programacion.jpg"
+                                        width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container">
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <h2>Primera Foto</h2>
+                            </div>
+                            <div>
+                                <span>Feb 7</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://assets.entrepreneur.com/content/3x2/2000/20181024141928-codigo.jpeg?width=700&crop=2:1"
+                                width="450px">
+                        </div>
+                        <div>
+                            <p> This is my first photo of the feed. This is a multi-line comment for testing
+                                purpose. I am learning
+                                to code with #breathecode
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <h2>Primera Foto</h2>
+                            </div>
+                            <div>
+                                <span>Feb 7</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://lh3.googleusercontent.com/proxy/Hf_FfaZ_IGtNMWmyy0N2CuP1_O49HwnR7HQ9HVd2zDJ18dFjAAeOapFQsGGORf914mueX7sQvIzX6YjhJm8kw2XohaLQfOWGqNTQFfuYu6QFzVPDs8Kc4mOlq-nNEcqJ"
+                                width="450px">
+                        </div>
+                        <div>
+                            <p> This is my first photo of the feed. This is a multi-line comment for testing
+                                purpose. I am learning
+                                to code with <strong>#breathecode</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <h2>Primera Foto</h2>
+                            </div>
+                            <div>
+                                <span>Feb 7</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://thumbs.dreamstime.com/b/pantalla-del-fondo-de-la-tecnolog%C3%ADa-del-c%C3%B3digo-fuente-y-del-extracto-95206313.jpg"
+                                width="450px">
+                        </div>
+                        <div>
+                            <p> This is my first photo of the feed. This is a multi-line comment for testing
+                                purpose. I am learning
+                                to code with <strong>#breathecode</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <h2>Primera Foto</h2>
+                            </div>
+                            <div>
+                                <span>Feb 7</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://elcomercio.pe/resizer/FkTQ4lEOCTGjrA5uno6KJ1LgsMg=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/OJAYHV4US5BLPMLSB2EFZEASKM.jpg"
+                                width="450px" />
+                        </div>
+                        <div>
+                            <p> This is my first photo of the feed. This is a multi-line comment for testing
+                                purpose. I am learning
+                                to code with <strong>#breathecode</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <h2>Primera Foto</h2>
+                            </div>
+                            <div>
+                                <span>Feb 7</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://www.computerworld.es/archivos/201909/code.jpg" width="450px">
+                        </div>
+                        <div>
+                            <p> This is my first photo of the feed. This is a multi-line comment for testing
+                                purpose. I am learning
+                                to code with <strong>#breathecode</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <h2>Primera Foto</h2>
+                            </div>
+                            <div>
+                                <span>Feb 7</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/09/lenguajes-programacion.jpg"
+                                width="450px">
+                        </div>
+                        <div>
+                            <p> This is my first photo of the feed. This is a multi-line comment for testing
+                                purpose. I am learning
+                                to code with <strong>#breathecode</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
